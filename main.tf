@@ -9,7 +9,7 @@ terraform {
 }
 
 provider "azurerm" {
-  subscription_id = "db95484c-40b0-4912-8066-3631243ad225"
+  subscription_id = "YOUR SUBID HERE"
   features {
     netapp {
       prevent_volume_destruction             = false
